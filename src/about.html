@@ -1,0 +1,86 @@
+import React from 'react';
+import Nav from '../components/Nav';
+
+const AboutPage = () => (
+<div>
+  <Nav />
+  <h1>I am...</h1>
+  <p>
+    … a Husband My partner in this adventure called life. Emily and I met at
+    Georgetown College, and married soon after in May of 2011 settling down in
+    her home town Louisville, KY. We are a dynamic duo, Yin and Yang,
+    continuing to support one another at every turn.
+  </p>
+
+  <p>
+    … a Father 2019 brought us this “all or nothing” ball of energy. He’s
+    always happy and excited to see people. This kid brings full perspective
+    to my day-to-day, keeping me grounded with his smiles. I live for my
+    family.
+  </p>
+
+  <p className="text-wire-green-500">
+    … a Woodworker and Craftsman I spend more time playing with my boy than at
+    my workbench; however, I still love to build and have always been
+    mesmerized by joinery and timber framing. Thanks to companies like Lost
+    Art Press, I started a mini library on traditional woodworking,
+    hand-tools, and Japanese joinery. I also started restoring and building my
+    own tools as I go.
+  </p>
+
+  <p>
+    … a Teacher and Mentor I believe in paying it forward. My success is
+    defined by those who invested in me and how much I invest back into
+    others. While we all have pressing deadlines and stress, I’m fulfilled
+    knowing I’ve set others up to succeed. I’ve volunteered as a code camp
+    instructor, taught 1:1 sessions, co-run a local meetup, contribute as a
+    content creator, and have recently started dumping my learning and
+    recordings here on my blog. If I’m able to help, I will.
+  </p>
+
+  <p>
+    … an Engineer and Consultant At some point you need to make money to
+    support all the other facets of life. I am fortunate to be doing this as
+    an Engineer and Consultant for software development company called
+    Echobind. A remote agency with similar core values around being a good
+    human being. Echobind has allowed me to invest in myself and my team. More
+    importantly Echobind recognizes the value of work life balance, being 100%
+    remote allows more time for family and smiles. How can we help?
+  </p>
+</div>
+);
+
+export default AboutPage;
+
+
+
+import React from 'react';
+import Avatar from '../components/Avatar';
+import Nav from '../components/Nav';
+import profile from '../public/images/shop.jpg';
+
+const IndexPage = () => (
+<div>
+  <Nav />
+  <div className="hero">
+    <h1 className="title text-wire-blue-500">Next.js + Tailwind CSS</h1>
+    <Avatar src={profile} alt="Profile Image" />
+    <p className="text-wire-green-700">
+      I enjoy the simple things in life. I’m a husband, father, teacher,
+      mentor, and craftsman. I’m able to invest in these areas of life by
+      working and evolving as a Software Engineer and Consultant. I believe in
+      paying it forward. My success is defined by those who invested in me and
+      how much I invest back into others. While we all have pressing deadlines
+      and stress, I’m fulfilled knowing I’ve set others up to succeed. I
+      didn’t get here alone and neither will you. The world is a better place
+      when we set our pride aside and work together. How can I help?
+    </p>
+    <p>
+      “If your goal is to move fast, travel alone. If your goal is to go far,
+      travel together.” ~Various wise folks before me.
+    </p>
+  </div>
+</div>
+);
+
+export default IndexPage;
